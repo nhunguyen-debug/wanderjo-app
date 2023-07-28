@@ -1,11 +1,11 @@
 ### WanderJo App - README
 Project Summary
 ```
-WanderJo is a comprehensive trip planner designed to help users search for travel destinations and discover exciting attractions. Whether you're an avid globetrotter or a spontaneous traveler, WanderJo makes it easy to plan your dream trips.
+WanderJo is a comprehensive trip planner designed to help users search for travel destinations and discover exciting attractions. Whether you're an avid globetrotter or a spontaneous traveler, WanderJo simplifies the process of planning your dream trips. With its user-friendly interface and vast database of destinations and points of interest, WanderJo empowers you to create unforgettable travel experiences. Whether you're looking for historical landmarks, picturesque landscapes, or delightful local cuisine, WanderJo has got you covered. Get ready to embark on your next adventure with WanderJo!
 ```
 
 ## Developers
-Wren Nguyen
+Wren Nguyen<br>
 Jochebed Maduagwu
 
 ## Installation Instructions
