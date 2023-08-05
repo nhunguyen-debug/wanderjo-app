@@ -7,7 +7,7 @@ const DestinationCard = ({ destination }) => {
     <div className="destination-card">
       <h2>{name}</h2>
       <p>Date: {date}</p>
-      <p>Temperature: {temperature}</p>
+      <p>Temperature: {temperature}&#176;F</p>
       <p>Description: {description}</p>
     </div>
   );
