@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../assets/ImageGallery.css'
+import '../assets/ImageGallery.css';
+
+// Helper function to truncate description
+const truncateDescription = (description, maxWords) => {
+  const words = description.split(' ');
+  if (words.length > maxWords) {
+    return words.slice(0, maxWords).join(' ') + '...';
+  }
+  return description;
+};
+
 const ImageGallery = ({ searchTerm }) => {
   const [images, setImages] = useState([]);
 
@@ -29,8 +39,7 @@ const ImageGallery = ({ searchTerm }) => {
         {images.map((image) => (
           <div key={image.id} className="image-container">
             <img src={image.urls.regular} alt={image.alt_description} />
-            <p>{image.description || image.alt_description}</p>
-            {/* Additional information from the image object can be displayed here */}
+            <p>{truncateDescription(image.description || image.alt_description, 10)}</p>
           </div>
         ))}
       </div>
