@@ -1,0 +1,11 @@
+.destination-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .destination-card {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  
